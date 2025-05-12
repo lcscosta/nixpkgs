@@ -4366,6 +4366,8 @@ self: super: with self; {
 
   edlib = callPackage ../development/python-modules/edlib { inherit (pkgs) edlib; };
 
+  edt = callPackage ../development/python-modules/edt { };
+
   eduvpn-common = callPackage ../development/python-modules/eduvpn-common { };
 
   edward = callPackage ../development/python-modules/edward { };
